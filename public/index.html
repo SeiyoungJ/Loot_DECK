@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Loot DECK</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create or Join a game</h1>
+      <form>
+        <label for="game-code">Enter game code:</label>
+        <input type="text" id="game-code" name="game-code">
+        <button type="submit">Join game</button>
+      </form>
+      <p>Or</p>
+      <button id="create-game">Create new game</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
