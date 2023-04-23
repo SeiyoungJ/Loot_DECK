@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DECK</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="background-color:#131519;">
+    <div class="container", style="background-color: #131519; height:230px; padding-top:80px;">
+      <div class="w-full flex justify-between py-2 bg-black px-4 bg-opacity-90">
+        <div class="Layout_header__logo__2Zu-m">
+          <a href="/">
+            <h2>Deck</h2>
+          </a>
+        </div>
+        <div class="self-center hidden sm:block">
+          <u1 class="flex space-x-8">
+            <li class="self-center text-x1">
+              <a class="undefinedbg-gray-900 px-4 py-2 rounded" href="/game">Game</a>
+            </li>
+            <li class="self-center text-x1">
+              <a class="undefinedbg-gray-900 px-4 py-2 rounded" href="/github">Github</a>
+            </li>
+          </u1>
+        </div>
+      </div>
+
+
+      <h1 style="font-size:70px; color:white; margin:10px;padding:0">DECK for Loot</h1>
+      <form>
+        <label style="font-size:30px; color:white; margin:10px;padding:0", for="game-code">Enter game code:</label>
+        <input type="text" id="game-code" name="game-code">
+        <button type="submit">Join game</button>
+      </form>
+      <button id="create-game">Create new game</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
